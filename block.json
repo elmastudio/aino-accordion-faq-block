@@ -1,0 +1,59 @@
+{
+	"apiVersion": 2,
+	"name": "ainoblocks/accordion-faq-block",
+	"version": "1.0.0",
+	"title": "Aino Accordion FAQ Block",
+	"category": "design",
+	"icon": "smiley",
+	"description": "Create Frequently Asked Question's with Aino's Accordion and FAQ Block",
+	"keywords": [ "faq", "accordion", "QandA", "knowledgebase", "aino", "ainoblocks"],
+	"attributes": {
+		"backgroundColor": {
+			"type": "string"
+		},
+		"borderRadius": {
+			"type": "string"
+		},
+		"iconPosition": {
+			"type": "string",
+			"default": "icon__right"
+		},
+		"border": {
+			"type": "boolean",
+			"default": false
+		},
+		"question": {
+			"type": "string"
+		},
+		"paddingTop": {
+			"type": "number"
+		},
+		"paddingBottom": {
+			"type": "number"
+		},
+		"paddingLeft": {
+			"type": "number"
+		},
+		"paddingRight": {
+			"type": "number"
+		}
+	},
+	"supports": {
+		"align": [ "wide", "full" ],
+		"anchor": true,
+		"color": {
+			"gradients": true,
+			"text": true
+		},
+		"__experimentalBorder": {
+			"color": true,
+			"width": true,
+			"radius": false,
+			"style": false
+		}
+	},
+	"textdomain": "ainoblocks",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

@@ -1,0 +1,762 @@
+/* style.css */
+@mixin s-r-1($property) {
+	#{$property}: 0;
+}
+
+@mixin s-r-2($property) {
+	#{$property}: 0.25rem;
+}
+
+@mixin s-r-3($property) {
+	#{$property}: 0.5rem;
+}
+
+@mixin s-r-4($property) {
+	#{$property}: 0.75rem;
+}
+
+@mixin s-r-5($property) {
+	#{$property}: 1rem;
+}
+
+@mixin s-r-6($property) {
+	#{$property}: 1rem;
+
+	@media (min-width: 80em) {
+		#{$property}: 1.25rem;
+	}
+}
+
+@mixin s-r-7($property) {
+	#{$property}: 1rem;
+
+	@media (min-width: 64em) {
+		#{$property}: 1.25rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 1.5rem;
+	}
+}
+
+@mixin s-r-8($property) {
+	#{$property}: 1rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 1.25rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 1.5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 2rem;
+	}
+}
+
+@mixin s-r-9($property) {
+	#{$property}: 1.25rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 1.5rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 2rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 2.5rem;
+	}
+}
+
+@mixin s-r-10($property) {
+	#{$property}: 1.5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 2rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 2.5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 3rem;
+	}
+}
+
+@mixin s-r-11($property) {
+	#{$property}: 2rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 2.5rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 3rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 4rem;
+	}
+}
+
+@mixin s-r-12($property) {
+	#{$property}: 2.5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 3rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 4rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 5rem;
+	}
+}
+
+@mixin s-r-13($property) {
+	#{$property}: 3rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 4rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 6rem;
+	}
+}
+
+@mixin s-r-14($property) {
+	#{$property}: 4rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 5rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 6rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 7.5rem;
+	}
+}
+
+@mixin s-r-15($property) {
+	#{$property}: 5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 6rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 7.5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 9rem;
+	}
+}
+
+@mixin s-r-16($property) {
+	#{$property}: 6rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 7.5rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 9rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 11rem;
+	}
+}
+
+@mixin s-r-17($property) {
+	#{$property}: 7.5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 9rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 11rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 13rem;
+	}
+}
+
+@mixin s-r-18($property) {
+	#{$property}: 9rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 11rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 13rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 15.5rem;
+	}
+}
+
+@mixin s-r-19($property) {
+	#{$property}: 11rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 13rem;
+	}
+
+	@media (min-width: 64em) {
+		#{$property}: 15.5rem;
+	}
+
+	@media (min-width: 80em) {
+		#{$property}: 18rem;
+	}
+}
+
+@mixin br-xxs($property) {
+	#{$property}: 0.625rem;
+}
+
+@mixin br-xs($property) {
+	#{$property}: 0.938rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 1.25rem;
+	}
+}
+
+@mixin br-s($property) {
+	#{$property}: 1.25rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 1.875rem;
+	}
+}
+
+@mixin br-m($property) {
+	#{$property}: 1.563rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 2.5rem;
+	}
+}
+
+@mixin br-l($property) {
+	#{$property}: 1.875rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 3.125rem;
+	}
+}
+
+@mixin br-xl($property) {
+	#{$property}: 2.5rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 3.75rem;
+	}
+}
+
+@mixin br-xxl($property) {
+	#{$property}: 3.125rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 4.375rem;
+	}
+}
+
+@mixin br-xxxl($property) {
+	#{$property}: 3.75rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 5rem;
+	}
+}
+
+@mixin br-xxxxl($property) {
+	#{$property}: 4.375rem;
+
+	@media (min-width: 48em) {
+		#{$property}: 5.625rem;
+	}
+}
+
+.wp-block-ainoblocks-accordion-faq-block {
+	cursor: pointer;
+	margin-bottom: 1rem;
+	background-color: #f4f4f4;
+	border: none;
+
+	&.has-border {
+		border-bottom: 1px solid #D8D8D8;
+	}
+
+	&.has-text-color {
+		h3 {
+			color: inherit;
+		}
+	}
+
+	.accordion {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+
+		h3 {
+			padding-right: 1.5rem;
+		}
+
+		&:before,
+		&:after {
+			content: "";
+			position: absolute;
+			top: 50%;
+			right: 0;
+			margin: 0 0 -8px;
+			background: currentColor;
+			border-radius: 2px;
+		}
+
+		&:before {
+			right: 6px;
+			width: 2px;
+			height: 14px;
+			margin-top: -7.5px;
+			background: currentColor;
+		}
+
+		&:after {
+			right: 0;
+			width: 14px;
+			height: 2px;
+			margin-top: -1.5px;
+			background: currentColor;
+		}
+	}
+
+	&.close {
+
+		.panel {
+			display: none;
+		}
+	}
+
+	&.open {
+
+		.panel {
+			display: block;
+		}
+
+		.accordion {
+
+			&:before {
+				height: 0;
+				margin-top: 0;
+			}
+		}
+	}
+
+	&.icon__left {
+
+		.accordion {
+	
+			h3 {
+				padding-left: 3rem;
+			}
+	
+			&:before,
+			&:after {
+				right: auto;
+				left: 0;
+			}
+	
+			&:before {
+				left: 6px;
+				right: auto;
+			}
+	
+			&:after {
+				left: 0;
+				right: auto;
+			}
+		}
+
+		.panel {
+			padding-left: 3rem;
+		}
+	}
+}
+
+.wp-block-ainoblocks-accordion-faq-block {
+
+	&.pt {
+
+		&__1 {
+			@include s-r-1(padding-top);
+		}
+
+		&__2 {
+			@include s-r-2(padding-top);
+		}
+
+		&__3 {
+			@include s-r-3(padding-top);
+		}
+
+		&__4 {
+			@include s-r-4(padding-top);
+		}
+
+		&__5 {
+			@include s-r-5(padding-top);
+		}
+
+		&__6 {
+			@include s-r-6(padding-top);
+		}
+
+		&__7 {
+			@include s-r-7(padding-top);
+		}
+
+		&__8 {
+			@include s-r-8(padding-top);
+		}
+
+		&__9 {
+			@include s-r-9(padding-top);
+		}
+
+		&__10 {
+			@include s-r-10(padding-top);
+		}
+
+		&__11 {
+			@include s-r-11(padding-top);
+		}
+
+		&__12 {
+			@include s-r-12(padding-top);
+		}
+
+		&__13 {
+			@include s-r-13(padding-top);
+		}
+
+		&__14 {
+			@include s-r-14(padding-top);
+		}
+
+		&__15 {
+			@include s-r-15(padding-top);
+		}
+
+		&__16 {
+			@include s-r-16(padding-top);
+		}
+
+		&__17 {
+			@include s-r-17(padding-top);
+		}
+
+		&__18 {
+			@include s-r-18(padding-top);
+		}
+
+		&__19 {
+			@include s-r-19(padding-top);
+		}
+	}
+
+	&.pb {
+
+		&__1 {
+			@include s-r-1(padding-bottom);
+		}
+
+		&__2 {
+			@include s-r-2(padding-bottom);
+		}
+
+		&__3 {
+			@include s-r-3(padding-bottom);
+		}
+
+		&__4 {
+			@include s-r-4(padding-bottom);
+		}
+
+		&__5 {
+			@include s-r-5(padding-bottom);
+		}
+
+		&__6 {
+			@include s-r-6(padding-bottom);
+		}
+
+		&__7 {
+			@include s-r-7(padding-bottom);
+		}
+
+		&__8 {
+			@include s-r-8(padding-bottom);
+		}
+
+		&__9 {
+			@include s-r-9(padding-bottom);
+		}
+
+		&__10 {
+			@include s-r-10(padding-bottom);
+		}
+
+		&__11 {
+			@include s-r-11(padding-bottom);
+		}
+
+		&__12 {
+			@include s-r-12(padding-bottom);
+		}
+
+		&__13 {
+			@include s-r-13(padding-bottom);
+		}
+
+		&__14 {
+			@include s-r-14(padding-bottom);
+		}
+
+		&__15 {
+			@include s-r-15(padding-bottom);
+		}
+
+		&__16 {
+			@include s-r-16(padding-bottom);
+		}
+
+		&__17 {
+			@include s-r-17(padding-bottom);
+		}
+
+		&__18 {
+			@include s-r-18(padding-bottom);
+		}
+
+		&__19 {
+			@include s-r-19(padding-bottom);
+		}
+	}
+
+	&.pl {
+		&__1 {
+			@include s-r-1(padding-left);
+		}
+
+		&__2 {
+			@include s-r-2(padding-left);
+		}
+
+		&__3 {
+			@include s-r-3(padding-left);
+		}
+
+		&__4 {
+			@include s-r-4(padding-left);
+		}
+
+		&__5 {
+			@include s-r-5(padding-left);
+		}
+
+		&__6 {
+			@include s-r-6(padding-left);
+		}
+
+		&__7 {
+			@include s-r-7(padding-left);
+		}
+
+		&__8 {
+			@include s-r-8(padding-left);
+		}
+
+		&__9 {
+			@include s-r-9(padding-left);
+		}
+
+		&__10 {
+			@include s-r-10(padding-left);
+		}
+
+		&__11 {
+			@include s-r-11(padding-left);
+		}
+
+		&__12 {
+			@include s-r-12(padding-left);
+		}
+
+		&__13 {
+			@include s-r-13(padding-left);
+		}
+
+		&__14 {
+			@include s-r-14(padding-left);
+		}
+
+		&__15 {
+			@include s-r-15(padding-left);
+		}
+
+		&__16 {
+			@include s-r-16(padding-left);
+		}
+
+		&__17 {
+			@include s-r-17(padding-left);
+		}
+
+		&__18 {
+			@include s-r-18(padding-left);
+		}
+
+		&__19 {
+			@include s-r-19(padding-left);
+		}
+	}
+
+	&.pr {
+		&__1 {
+			@include s-r-1(padding-right);
+		}
+
+		&__2 {
+			@include s-r-2(padding-right);
+		}
+
+		&__3 {
+			@include s-r-3(padding-right);
+		}
+
+		&__4 {
+			@include s-r-4(padding-right);
+		}
+
+		&__5 {
+			@include s-r-5(padding-right);
+		}
+
+		&__6 {
+			@include s-r-6(padding-right);
+		}
+
+		&__7 {
+			@include s-r-7(padding-right);
+		}
+
+		&__8 {
+			@include s-r-8(padding-right);
+		}
+
+		&__9 {
+			@include s-r-9(padding-right);
+		}
+
+		&__10 {
+			@include s-r-10(padding-right);
+		}
+
+		&__11 {
+			@include s-r-11(padding-right);
+		}
+
+		&__12 {
+			@include s-r-12(padding-right);
+		}
+
+		&__13 {
+			@include s-r-13(padding-right);
+		}
+
+		&__14 {
+			@include s-r-14(padding-right);
+		}
+
+		&__15 {
+			@include s-r-15(padding-right);
+		}
+
+		&__16 {
+			@include s-r-16(padding-right);
+		}
+
+		&__17 {
+			@include s-r-17(padding-right);
+		}
+
+		&__18 {
+			@include s-r-18(padding-right);
+		}
+
+		&__19 {
+			@include s-r-19(padding-right);
+		}
+	}
+
+	&.br {
+			
+		&__xxs {
+			@include br-xxs(border-radius);
+		}
+		
+		&__xs {
+			@include br-xs(border-radius);
+		}
+		
+		&__s {
+			@include br-s(border-radius);
+		}
+		
+		&__m {
+			@include br-m(border-radius);
+		}
+		
+		&__l {
+			@include br-l(border-radius);
+		}
+		
+		&__xl {
+			@include br-xl(border-radius);
+		}
+		
+		&__xxl {
+			@include br-xxl(border-radius);
+		}
+		
+		&__xxxl {
+			@include br-xxxl(border-radius);
+		}
+		
+		&__xxxxl {
+			@include br-xxxxl(border-radius);
+		}
+	}
+}
