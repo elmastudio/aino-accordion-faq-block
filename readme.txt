@@ -17,7 +17,6 @@ Create Frequently Asked Question's with Aino's Accordion and FAQ Block. You can 
 == Changelog ==
 
 = 1.0.1 =
-* Enhance: Add transition.
 * Bugfix: Add a default margin below block.
 
 = 1.0.0 =

@@ -45,14 +45,11 @@ export default function save({ attributes }) {
 
 	const blockProps = useBlockProps.save( {
 		className: blockClasses,
-		style: {
-			borderRadius: borderRadius ? borderRadius + 'px' : undefined,
-		},
 	} );
 
 	return (
 
-		<div 
+		<div
 			{ ...blockProps }
 			{ ...{ 'x-data': '{ open: false }' } }
 			{ ...{ '@click':'open = !open' } }
