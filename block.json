@@ -1,7 +1,7 @@
 {
 	"apiVersion": 2,
 	"name": "ainoblocks/accordion-faq-block",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"title": "Aino Accordion FAQ Block",
 	"category": "design",
 	"icon": "smiley",
