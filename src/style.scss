@@ -301,12 +301,16 @@
 
 .wp-block-ainoblocks-accordion-faq-block {
 	cursor: pointer;
-	margin-bottom: 1rem;
-	background-color: #f4f4f4;
+	margin-bottom: 0.5rem;
+	background-color: transparent;
 	border: none;
 
+	@media (min-width: 48em) {
+		margin-bottom: 1rem;
+	}
+
 	&.has-border {
-		border-bottom: 1px solid #D8D8D8;
+		border-bottom: 1px solid #d8d8d8;
 	}
 
 	&.has-text-color {
@@ -315,49 +319,98 @@
 		}
 	}
 
+	&.is-style-toggle {
+		margin-bottom: 0;
+	}
+
+	&.is-style-toggle.has-background {
+		background-color: transparent !important;
+
+		&:hover {
+			transition: all 0.25s;
+			background-color: currentColor !important;
+		}
+	}
+
+	&.is-style-toggle.has-background.open {
+		background-color: currentColor !important;
+	}
+
 	.accordion {
 		display: flex;
 		justify-content: space-between;
 		position: relative;
 
 		h3 {
+			display: flex;
+			position: relative;
+			width: 100%;
 			margin: 0;
 			padding-right: 1.5rem;
-		}
+			align-items: center;
 
-		&:before,
-		&:after {
-			content: "";
-			position: absolute;
-			top: 50%;
-			right: 0;
-			margin: 0 0 -8px;
-			background: currentColor;
-			border-radius: 2px;
-		}
-
-		&:before {
-			right: 6px;
-			width: 2px;
-			height: 14px;
-			margin-top: -7.5px;
-			background: currentColor;
-		}
-
-		&:after {
-			right: 0;
-			width: 14px;
-			height: 2px;
-			margin-top: -1.5px;
-			background: currentColor;
+			&:before,
+			&:after {
+				content: "";
+				position: absolute;
+				top: 50%;
+				right: 0;
+				margin: 0 0 -8px;
+				background: currentColor;
+				border-radius: 2px;
+			}
+	
+			&:before {
+				right: 6px;
+				width: 2px;
+				height: 14px;
+				margin-top: -7.5px;
+			}
+	
+			&:after {
+				right: 0;
+				width: 14px;
+				height: 2px;
+				margin-top: -1.5px;
+			}
 		}
 	}
 
-	&.close {
+	&.is-style-toggle,
+	&.is-style-toggle.icon__left {
 
-		.panel {
-			display: none;
+		.accordion {
+
+			&:before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 32px;
+				height: 32px;
+				display: block;
+				border-radius: 6.25rem;
+			}
+
+			h3 {
+				height: 32px;
+				padding-left: 2.75rem;
+		
+				&:before {
+					left: 15px;
+					right: auto;
+				}
+		
+				&:after {
+					left: 9px;
+					right: auto;
+				}
+			}
 		}
+	}
+
+	.panel {
+		display: none;
 	}
 
 	&.open {
@@ -368,7 +421,7 @@
 
 		.accordion {
 
-			&:before {
+			h3:before {
 				height: 0;
 				margin-top: 0;
 			}
@@ -378,30 +431,20 @@
 	&.icon__left {
 
 		.accordion {
-	
+
 			h3 {
 				padding-left: 3rem;
+		
+				&:before {
+					left: 6px;
+					right: auto;
+				}
+		
+				&:after {
+					left: 0;
+					right: auto;
+				}
 			}
-	
-			&:before,
-			&:after {
-				right: auto;
-				left: 0;
-			}
-	
-			&:before {
-				left: 6px;
-				right: auto;
-			}
-	
-			&:after {
-				left: 0;
-				right: auto;
-			}
-		}
-
-		.panel {
-			padding-left: 3rem;
 		}
 	}
 }

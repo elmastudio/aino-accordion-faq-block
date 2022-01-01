@@ -1,12 +1,12 @@
 {
 	"apiVersion": 2,
 	"name": "ainoblocks/accordion-faq-block",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"title": "Aino Accordion FAQ Block",
 	"category": "design",
 	"icon": "smiley",
-	"description": "Create Frequently Asked Question's with Aino's Accordion and FAQ Block",
-	"keywords": [ "faq", "accordion", "QandA", "knowledgebase", "aino", "ainoblocks"],
+	"description": "Create Frequently Asked Question's and Accordion toggles with Aino's Accordion and FAQ Block",
+	"keywords": [ "faq", "accordion", "QandA", "knowledgebase", "toggle", "aino", "ainoblocks"],
 	"attributes": {
 		"backgroundColor": {
 			"type": "string"
@@ -52,6 +52,10 @@
 			"style": false
 		}
 	},
+	"styles": [
+		{ "name": "faq", "label": "FAQ", "isDefault": true },
+		{ "name": "toggle", "label": "Content Toggle" }
+	],
 	"textdomain": "ainoblocks",
 	"editorScript": "file:./build/index.js",
 	"editorStyle": "file:./build/index.css",

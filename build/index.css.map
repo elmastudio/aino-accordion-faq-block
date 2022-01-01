@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"index.css","sourceRoot":""}
+{"version":3,"sources":["webpack:///./src/editor.scss"],"names":[],"mappings":"AAEE;EACC;AADH,C","file":"index.css","sourcesContent":[".editor-styles-wrapper {\n\t.wp-block-ainoblocks-accordion-faq-block {\n\t\t.panel {\n\t\t\tdisplay: block;\n\t\t}\n\t}\n}\n"],"sourceRoot":""}
