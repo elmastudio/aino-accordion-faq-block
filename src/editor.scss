@@ -1,5 +1,11 @@
 .editor-styles-wrapper {
 	.wp-block-ainoblocks-accordion-faq-block {
+		margin-bottom: 0.5rem;
+
+		@media (min-width: 48em) {
+			margin-bottom: 1rem;
+		}
+
 		.panel {
 			display: block;
 		}
