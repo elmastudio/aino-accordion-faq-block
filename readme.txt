@@ -1,4 +1,4 @@
-=== Aino Accordion Faq Block ===
+=== AinoBlocks Accordion Faq Block ===
 Author URI: https://www.elmastudio.de/en
 Plugin URI: https://ainoblocks.io
 Contributors:      elmastudio
