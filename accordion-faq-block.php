@@ -5,7 +5,7 @@
  * Description:       Create Frequently Asked Question's and Accordions with Aino's Accordion and FAQ Block.
  * Requires at least: 5.8
  * Requires PHP:      7.0
- * Version:           1.1.1
+ * Version:           1.1.3
  * Author:            Elma Studio
  * Author URI:        https://elmastudio.de/en/
  * License:           GPL-2.0-or-later
