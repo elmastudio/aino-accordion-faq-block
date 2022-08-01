@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Aino Accordion FAQ Block
+ * Plugin Name:       AinoBlocks Accordion FAQ Block
  * Plugin URI:        https://ainoblocks.io/
  * Description:       Create Frequently Asked Question's and Accordions with Aino's Accordion and FAQ Block.
  * Requires at least: 5.8
@@ -52,7 +52,6 @@ function ainoblocks_accordion_faq_block_block_init() {
 
 }
 add_action( 'init', 'ainoblocks_accordion_faq_block_block_init' );
-
 
 function ainoblocks_accordion_faq_block_enqueue_frontend_scripts() {
 
