@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name:       Aino Accordion FAQ Block
+ * Plugin Name:       AinoBlocks Accordion FAQ Block
  * Plugin URI:        https://ainoblocks.io/
  * Description:       Create Frequently Asked Question's and Accordions with Aino's Accordion and FAQ Block.
  * Requires at least: 5.8
  * Requires PHP:      7.0
- * Version:           1.1.1
+ * Version:           1.1.3
  * Author:            Elma Studio
  * Author URI:        https://elmastudio.de/en/
  * License:           GPL-2.0-or-later
@@ -52,7 +52,6 @@ function ainoblocks_accordion_faq_block_block_init() {
 
 }
 add_action( 'init', 'ainoblocks_accordion_faq_block_block_init' );
-
 
 function ainoblocks_accordion_faq_block_enqueue_frontend_scripts() {
 
